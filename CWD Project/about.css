@@ -1,0 +1,52 @@
+.label, header {
+    color: #af75d9;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bands {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    li {
+        margin-bottom: -50px;
+    }
+}
+
+.section1 h1 {
+    color: #af75d9;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        border: 3px solid #af75d9;
+        border-radius: 16px;
+        padding: 5px;
+    }
+    
+    img:hover {
+        border-color: #754796;
+
+    }
+}
+
+#aboutme {
+    border: 2px solid #af75d9;
+    border-radius: 16px;
+    box-shadow: 10px 5px 10px #754796;
+    padding: 10px;
+    color: #af75d9;
+    font-size: 2rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    display: flex;
+    margin: 20px;
+}
