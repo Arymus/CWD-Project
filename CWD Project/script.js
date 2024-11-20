@@ -15,7 +15,7 @@ function enterPassword() {
 
 function getHint() {
     const hintArray = ["The spanish word for \"puppy\"!", "A young dog (in spanish)", "Someone who likes chew toys (in spanish)"];
-    const randomNumber = Math.floor(Math.random() * 4);
+    const randomNumber = Math.floor(Math.random() * 3);
     alert(hintArray[randomNumber]);
 }
 
